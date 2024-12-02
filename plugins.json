@@ -1,0 +1,25 @@
+[
+  {
+    "name": "iverilog",
+    "description": "IVerilog based compiler for VBuild",
+    "version": "0.1.2",
+    "authors": ["theking0x9"],
+    "license": "MIT",
+    "link": "https://raw.githubusercontent.com/theking0x9/vbuild-plugins/refs/heads/main/plugins/iverilog.lua",
+    "config": {
+      "Verilog": {
+        "build_path": "build",
+        "flags": ["-Wall"]
+      }
+    }
+  },
+  {
+    "name": "testbench",
+    "description": "Automatically create Verilog testbenches from a specified template",
+    "version": "0.0.1",
+    "authors": ["theking0x9"],
+    "license": "MIT",
+    "link": "https://raw.githubusercontent.com/theking0x9/vbuild-plugins/refs/heads/main/plugins/testbench.lua",
+    "config": {}
+  }
+]
